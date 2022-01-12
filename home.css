@@ -1,0 +1,119 @@
+body {
+  background-color: black;
+  color: aliceblue;
+  font-size: 1.4rem;
+}
+
+#message  {
+    position: relative;
+    left: 2rem;
+    background-color: darkslategray;
+    color: floralwhite;
+    width: 300px;
+    height: 100px;
+    border: 20px solid darkslategray;
+    box-sizing: border-box;
+    padding: 24px;
+    margin: 22px;
+    border-radius: 10px  1px 20px;
+    font-size: 1.3rem;
+  }
+
+#answer {
+   position: relative;
+   left: 5rem;
+   width: 25rem;
+   height: 10rem;
+   background-color: darkslategrey;
+   color: lightyellow;
+   box-sizing: border-box;
+   width: 25rem;
+   border-radius: 8px 20px 8px 30px;
+   text-align: center;
+   justify-content: center;
+   font-size: 1.3rem;
+  }
+  
+  
+  #comment {
+    position: relative;
+    left: 5rem;
+    width: 25rem;
+    height: 10rem;
+    background-color: indigo;
+    color: floralwhite;
+    font-size: 1.3rem;
+    border-radius: 20px 4px 30px 8px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  
+.fa {
+    position: relative;
+    left: 17rem;
+    background-color: black;
+    color: rebeccapurple;
+    font-size: 2rem;
+    cursor: pointer;
+    user-select: none;
+}
+  
+  .fa:hover {
+    color: teal;
+  }
+
+  #title {
+    position: relative;
+    top: auto;
+    color: aquamarine;
+    font-size: 4rem;
+    font-weight: 100;
+    font-style: italic;
+    background-image: linear-gradient(teal, blue);
+    text-align: center;
+  }
+  
+ #first, #second, button {
+   background-color: deepskyblue;
+   border: 1px solid deepskyblue;
+   color: black;
+   width: 10rem;
+   position: relative;
+   left: 5rem;
+   border-radius: 20px;
+  }
+
+  .avatar {
+    vertical-align: middle;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+
+  #johny {
+    border: 2px solid sienna;
+    width: 20rem;
+    height: 11rem;
+    color: thistle;
+    font-size: 1.5rem;
+  }
+
+  a, a:link {
+    margin: 0.5rem;
+    text-decoration: none;
+    background-color: slateblue;
+    position: relative;
+    left: 36rem;
+    width: 10rem;
+    border-radius: 60%;
+    border: 2px solid chocolate;
+    color: wheat;
+   
+  }
+ 
+  a:hover {
+    text-decoration: none;
+  }
+
+ 
